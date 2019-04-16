@@ -1,6 +1,6 @@
 # ember-data 3.4 -> 3.5 update bug
 
-This app does works with ember-data 3.4 but does not work with ember-data 3.5
+This app works with ember-data 3.4 but does not work with ember-data 3.5
 
 ## How to reproduce the bug under ember-data 3.5?
 
