@@ -4,7 +4,7 @@ This app works with ember-data 3.4 but does not work with ember-data 3.5
 
 ## How to reproduce the bug under ember-data 3.5?
 
-- git clone ...
+- git clone https://github.com/bartocc/record-data-bug
 - yarn
 - ember serve
 - open localhost:4200/tests
