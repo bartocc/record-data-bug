@@ -2,9 +2,9 @@ import { JSONAPISerializer } from 'ember-cli-mirage';
 
 export default JSONAPISerializer.extend({
 
-  links(book) {
+  links(address) {
     return {
-      'author': { related: `/books/${book.id}/author` }
+      'user': { related: `/addresses/${address.id}/user` }
     };
   }
 

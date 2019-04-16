@@ -6,10 +6,10 @@ module('Acceptance | the bug', function(hooks) {
   setupApplicationTest(hooks);
 
   test('visit the page', async function(assert) {
-    const author = this.server.create('author');
-    this.server.createList('book', 2, {author});
+    const user = this.server.create('user');
+    this.server.createList('address', 2, {user});
 
     await visit('/');
-    assert.dom('.book').exists({count: 2});
+    assert.dom('.address').exists({count: 2});
   });
 });

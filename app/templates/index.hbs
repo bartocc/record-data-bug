@@ -1,8 +1,8 @@
-{{#each this.model.books as |book|}}
-  <div class="book">
-    <span>book.id: {{book.id}}</span>
+{{#each this.model.addresses as |address|}}
+  <div class="address">
+    <span>address.id: {{address.id}}</span>
     <br>
-    <span>book.author.id: {{book.author.id}}</span>
+    <span>address.user.id: {{address.user.id}}</span>
   </div>
   <br>
 {{/each}}

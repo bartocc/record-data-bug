@@ -1,8 +1,8 @@
 export default function() {
-  this.get('/authors');
+  this.get('/users');
 
-  this.get('/books/:id/author', function({ books }, { params }) {
-    let book = books.find(params.id)
-    return book.author;
+  this.get('/addresses/:id/user', function({ addresses }, { params }) {
+    let address = addresses.find(params.id)
+    return address.user;
   });
 }
